@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>登录</title>
+  <meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/login.css">
+	<script type="text/javascript" src="../js/login.js"></script>
+ </head>
+  <body>
+	<div id="login">
+		<img src="../img/login/login_top_icon.png" alt="图片加载失败" class="sign">
+		<div class="login-inbox">
+			<div class="login-method">
+				<div class="login-normal">普通登录</div>
+				<div  class="login-phone">手机动态密码登录</div>
+			</div>
+			<div class="login-items">
+				<input type="text" name="uphone" id="uphone" placeholder="手机号/邮箱" onblur="getPhone()">
+			</div>
+			<div class="err-tip">
+				
+			</div>
+			<div class="login-items">
+				<input type="password" name="upwd" id="upwd" placeholder="请输入密码">
+			</div>
+			<div class="err-tip">
+				
+			</div>
+			<div class="login-btn">
+				<input type="button" value="登录">
+			</div>
+			<div class="err-tip">
+				
+			</div>
+			<div class="login-type">
+				<label><input type="checkbox" checked>记住我</label>
+				<a href="#">忘记密码?</a>
+			</div>
+			<div class="login-othertype">
+				你还没有账号，<a href="#">免费注册</a>
+			</div>
+		</div>
+	</div> 
+  </body>
+</html>

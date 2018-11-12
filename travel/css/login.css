@@ -1,0 +1,83 @@
+body,div,h1,h2,h3,h4,h5,h6,pre,ul,ol{
+	margin:0px;
+    padding:0px;
+}
+*{
+	box-sizing: content-box;
+}
+/*login页面*/
+	#login{
+			width:100%;
+			height:980px;
+			background-image:url(../img/login/login_background.jpg);
+			text-align:center;
+	}
+	img.sign{
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+	div.login-inbox{
+		width:334px;
+		height:340px;
+		padding:35px;
+		margin:0 auto;
+		background-color: #fff;
+		font-size: 14px;
+		font-family: "Microsoft Yahei", Verdana;
+		color:#959595;
+	}
+	.login-normal,.login-phone{
+		float:left;
+		font-size:18px;
+		width:167px;
+		height:30px;
+		margin-bottom: 32px
+	}
+	.login-normal{
+		color:#00bb66;
+		border-bottom:1px solid #00bb66;
+	}
+	.login-phone{
+		color:#999999;
+		border-bottom:1px solid #999999;
+	}
+	.login-items input{
+		width:320px;
+		height:32px;
+		padding:3px 6px;
+	}
+	#login .err-tip{
+		width:320px;
+		height:32px;
+		color:#ff0000;
+		font-size: 13px;
+	}
+	.login-btn input{
+		width:320px;
+		height:40px;
+		background-color:#26c577;
+		font-size: 18px;
+		color:#fff;
+		outline:none;
+		border:none;
+		border-radius: 3px;
+	}
+	.login-type:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.login-type label{
+		float:left;
+	}
+	.login-type a{
+		float:right;
+		color:#00bb66;
+	}
+	.login-othertype{
+		margin-top:30px;
+		float:right;
+	}
+	.login-othertype a{
+		color:#00bb66;
+	}
